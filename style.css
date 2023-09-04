@@ -40,6 +40,8 @@ header {
 }
 
 .navigation {
+   display: flex;
+   justify-content: space-between; 
 
 }
 
@@ -51,12 +53,22 @@ header {
     line-height: 16px;
 }
 
+.nav_btn {
+    display: flex;
+    max-width: 533px;
+    justify-content: space-between; 
+    gap: 34px;
+    align-items: center;
+}
+
 main {
     margin-bottom: 162px;
 }
 
 .main-content {
-
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .main-content-wrapper {
@@ -81,7 +93,10 @@ main {
 }
 
 .main-content-btn-list {
-
+    display: flex;
+    max-width: 340px;
+    justify-content: space-between; 
+    gap: 36px;
 }
 
 .main-content-btn {
@@ -103,5 +118,6 @@ footer {
 }
 
 .logos {
-
+    display: flex;
+    justify-content: space-between; 
 }
