@@ -61,6 +61,11 @@ header {
     align-items: center;
 }
 
+.nav_activ_btn {
+    color: #F25822 !important;
+    font-family: Gilroy-SemiBold !important;
+}
+
 main {
     margin-bottom: 162px;
 }
@@ -69,6 +74,7 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    margin-bottom: 162px;
 }
 
 .main-content-wrapper {
@@ -119,5 +125,109 @@ footer {
 
 .logos {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    padding: 97px 0px;
+}
+
+.carts_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 40px 30px 25px;
+}
+
+.card img {
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.card p {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-bottom: 25px;
+}
+ .card a {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+ }
+
+.card_light {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.carts_list2 {
+    background: #FAFAFA;
+    padding: 92px 0px 100px;
+}
+
+.carts_list2 h2 {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+.carts_list2 p {
+    color: #666;
+    
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    max-width: 682px;
+    margin-bottom: 70px;
+}
+
+.carts_list2_carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px; 
+}
+
+.cart {
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 30px 25px;
+}
+
+.cart h3 {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.cart p {
+    color: #AAA;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-bottom: 39px;
 }
